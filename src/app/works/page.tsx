@@ -67,7 +67,7 @@ export default function Home() {
                <ArtworkImage
                 src="/images/untitled4.jpg"
                 alt="Painting"
-                title="Rose pedals"
+                title="Blomstring"
                 subtitle="Oil on canvas · 2022"
               />
               <ArtworkImage
