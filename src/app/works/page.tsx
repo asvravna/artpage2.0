@@ -90,11 +90,11 @@ export default function Works() {
               <ArtworkImage
                 src="/images/bohcuid.jpg"
                 alt="Landscape painting"
-                title="Bohccuid"
+                title="Untitled"
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
-                src="/images/deatnu.jpg"
+                src="/images/deatnu2.jpg"
                 alt="Painting"
                 title="Rødberget"
                 subtitle="Acrylic on canvas · 2022"
