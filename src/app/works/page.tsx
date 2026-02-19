@@ -70,7 +70,7 @@ export default function Works() {
                 src="/images/Untitled3.jpg"
                 alt="Painting"
                 title="Čáhci"
-                subtitle="Acrylic · 2020"
+                subtitle="Acrylic on canvas· 2020"
               />
               <ArtworkImage
                 src="/images/frontpage2.jpg"
@@ -110,6 +110,12 @@ export default function Works() {
                 alt="Painting"
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2021"
+              />
+               <ArtworkImage
+                src="/images/birkelunden_redigert.jpg"
+                alt="Painting"
+                title="Birkelunden"
+                subtitle="Oil on canvas · 2021"
               />
               <ArtworkImage
                 src="/images/untitled0.jpg"
