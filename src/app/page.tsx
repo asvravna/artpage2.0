@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <main className="relative min-h-screen text-gray-900 overflow-hidden">
 
-      {/* 🌈 FULLSCREEN GRADIENT BACKGROUND */}
       <div className="fixed inset-0 -z-10">
         <Grainient
           color1="#509f7a"
@@ -36,15 +35,12 @@ export default function Home() {
         />
       </div>
 
-      {/* 🌫 OPTIONAL SOFT WHITE OVERLAY (recommended for readability) */}
       <div className="fixed inset-0 -z-10 bg-white/40" />
 
-      {/* PAGE CONTENT */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-10">
 
         <div className="flex flex-col gap-12 md:flex-row">
 
-          {/* SIDEBAR */}
           <aside className="md:w-56 md:shrink-0 space-y-6">
 
             <div>
@@ -65,7 +61,6 @@ export default function Home() {
 
           </aside>
 
-          {/* MAIN CONTENT */}
           <section className="flex-1 space-y-16">
             {/* your artworks go here */}
           </section>

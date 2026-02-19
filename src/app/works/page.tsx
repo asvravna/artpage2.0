@@ -41,16 +41,35 @@ export default function Home() {
             {/* FEATURED ARTWORK */}
             <div className="mx-auto w-full max-w-3xl">
               <ArtworkImage
-                src="/images/frontpage2.jpg"
-                alt="Shimmer painting"
-                title="Untitled"
-                subtitle="Acrylic on canvas · 2023"
+                src="/images/grå_skyer.jpeg"
+                alt="Painting"
+                title="Grey clouds over the water"
+                subtitle="Aquarelle · 2022"
+
+                
                 priority
               />
             </div>
 
             {/* MORE ARTWORKS EXAMPLE */}
             <div className="grid gap-10 sm:grid-cols-2">
+               <ArtworkImage
+                src="/images/stille.jpeg"
+                alt="Painting"
+                title="Gaia"
+                subtitle="Aquarelle · 2022"
+              /> <ArtworkImage
+                src="/images/frontpage2.jpg"
+                alt="Shimmer painting"
+                title="Untitled"
+                subtitle="Acrylic on canvas · 2023"
+              />
+               <ArtworkImage
+                src="/images/untitled4.jpg"
+                alt="Painting"
+                title="Rose pedals"
+                subtitle="Oil on canvas · 2022"
+              />
               <ArtworkImage
                 src="/images/bohcuid.jpg"
                 alt="Landscape painting"
@@ -58,11 +77,48 @@ export default function Home() {
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
-                src="/images/gaia_klippet.jpg"
+                src="/images/deatnu.jpg"
+                alt="Painting"
+                title="Rødberget"
+                subtitle="Acrylic on canvas · 2022"
+              />
+              <ArtworkImage
+                src="/images/redigert_gaia.jpg"
                 alt="Painting"
                 title="Gaia"
                 subtitle="Acrylic on canvas · 2022"
               />
+               <ArtworkImage
+                src="/images/untitled1.jpg"
+                alt="Painting"
+                title="Untitled"
+                subtitle="Acrylic on canvas · 2021"
+              />
+              <ArtworkImage
+                src="/images/untitled0.jpg"
+                alt="Painting"
+                title="Untitled"
+                subtitle="Acrylic on canvas · 2021"
+              />
+              {/* <ArtworkImage
+                src="/images/untitled0.jpg"
+                alt="Painting"
+                title="Gaia"
+                subtitle="Acrylic on canvas · 2022"
+              /> */}
+             
+              <ArtworkImage
+                src="/images/untitled2.jpg"
+                alt="Painting"
+                title="Untitled"
+                subtitle="Acrylic on canvas · 2021"
+              />
+              {/* <ArtworkImage
+                src="/images/untitled2.jpg"
+                alt="Painting"
+                title="Gaia"
+                subtitle="Acrylic on canvas · 2022"
+              /> */}
             </div>
 
           </section>
