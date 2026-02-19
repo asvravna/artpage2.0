@@ -43,7 +43,7 @@ export default function Home() {
               <ArtworkImage
                 src="/images/grå_skyer.jpeg"
                 alt="Painting"
-                title="Grey clouds over the water"
+                title="Mørke skyer over fjorden"
                 subtitle="Aquarelle · 2022"
 
                 
@@ -56,7 +56,7 @@ export default function Home() {
                <ArtworkImage
                 src="/images/stille.jpeg"
                 alt="Painting"
-                title="Gaia"
+                title="Stille"
                 subtitle="Aquarelle · 2022"
               /> <ArtworkImage
                 src="/images/frontpage2.jpg"
