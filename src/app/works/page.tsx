@@ -2,12 +2,34 @@ import Link from "next/link"
 import ArtworkImage from "../components/ArtrworkImage"
 import Footer from "../components/Footer"
 
+import Image from "next/image"
+
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f6f6f4] text-gray-900">
 
       {/* PAGE CONTAINER */}
       <div className="mx-auto max-w-7xl px-6 py-10">
+              <Link href="/" className="flex items-center gap-3 group">
+    <Image
+      src="/logo_background.webp"
+      alt="Anna Ravna logo"
+      width={60}
+      height={60}
+      className="object-contain"
+      priority
+    />
+
+    {/* <h1 className="text-xl leading-tight">
+      Anna Ravna
+      <br />
+      <span className="italic text-gray-700 group-hover:text-black transition">
+        paintings
+      </span>
+    </h1> */}
+  </Link>
+
 
         {/* FLEX WRAPPER */}
         <div className="flex flex-col gap-12 md:flex-row">
