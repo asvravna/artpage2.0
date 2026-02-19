@@ -1,82 +1,66 @@
 "use client";
-
+import Image from "next/image"
 import Link from "next/link"
 import Footer from "../components/Footer"
-import Grainient from "../components/Grainient"
 
 export default function Contact() {
-    const email = "ansvravna" + "@" + "gmail.com"
-// <a href={`mailto:${email}`}>{email}</a>
   return (
-    <main className="relative flex flex-col min-h-[200vh] text-gray-900 overflow-hidden">
+    <main className="relative flex flex-col min-h-[120vh] text-[#3b1f0f] overflow-hidden">
 
-      <div className="fixed inset-0 -z-10">
-        <Grainient
-          color1="#a8300f"
-          color2="#201796"
-          color3="#ca9d4f"
-          timeSpeed={0.25}
-          colorBalance={0}
-          warpStrength={1}
-          warpFrequency={5}
-          warpSpeed={2}
-          warpAmplitude={50}
-          blendAngle={0}
-          blendSoftness={0.05}
-          rotationAmount={500}
-          noiseScale={2}
-          grainAmount={0.1}
-          grainScale={2}
-          grainAnimated={false}
-          contrast={1.5}
-          gamma={1}
-          saturation={1}
-          centerX={0}
-          centerY={0}
-          zoom={0.9}
-        />
-      </div>
-      <div className="fixed inset-0 -z-10 bg-white/40" />
+      {/* Background painting */}
+      <Image
+        src="/images/Untitled1.jpg"
+        alt=""
+        fill
+        className="object-cover opacity-60"
+        priority
+      />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 py-10 flex-1 w-full">
-        <div className="flex flex-col gap-12 md:flex-row">
+      {/* Softening overlay */}
+      <div className="absolute inset-0 bg-white/40" />
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 py-10 flex-1 w-full flex flex-col">
+        <div className="flex flex-col gap-12 md:flex-row flex-1">
 
           {/* Sidebar */}
-          <aside className="md:w-56 md:shrink-0 space-y-6">
+          <aside className="md:w-56 md:shrink-0 flex flex-col space-y-6">
+            <Link href="/" className="flex items-center gap-3 group">
+              <Image
+                src="/logo_background.webp"
+                alt="Anna Ravna logo"
+                width={90}
+                height={90}
+                className="object-contain"
+                priority
+              />
+            </Link>
             <div>
-              <h1 className="text-xl leading-tight">
+              <h1 className="text-2xl leading-tight">
                 Anna Ravna
                 <br />
-                <span className="italic text-gray-700">paintings</span>
+                <span className="italic">paintings</span>
               </h1>
             </div>
-            <nav className="text-sm text-gray-700">
+            <nav className="text-base text-2xl">
               <ul className="flex gap-6 md:flex-col md:gap-2">
-                <li><Link href="/works" className="hover:text-black">works</Link></li>
-                <li><Link href="/about" className="hover:text-black">about</Link></li>
-                <li><Link href="/contact" className="hover:text-black text-black underline underline-offset-4">contact</Link></li>
+                <li><Link href="/works" className="hover:opacity-60">works</Link></li>
+                <li><Link href="/about" className="hover:opacity-60">about</Link></li>
+                <li><Link href="/contact" className="underline underline-offset-4">contact</Link></li>
               </ul>
             </nav>
           </aside>
 
-          {/* Contact content */}
-          <section className="flex-1 space-y-12 pt-1 text-black">
-            <div className="space-y-1">
-              <h2 className="text-3xl font-light tracking-tight">contact:</h2>
-              <div className="w-10 h-px mt-2" />
-            </div>
-
-            <div className="space-y-8 text-sm max-w-sm space-y-1 ">
+          {/* Contact content — pushed to bottom */}
+          <section className="flex-1 flex flex-col pt-30 pb-16 space-y-8">
+            <h2 className="text-3xl font-light tracking-tight">contact:</h2>
+            <div className="space-y-8 max-w-sm">
               <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest">email</p>
-                <p className="text-base ">
-                  ansvravna [at] gmail [dot] com
-                </p>
+                <p className="text-xs uppercase tracking-widest opacity-100">email</p>
+                <p className="text-base">ansvravna [at] gmail [dot] com</p>
               </div>
-
               <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest ">location</p>
-                <p className="text-base ">Oslo, Norway</p>
+                <p className="text-xs uppercase tracking-widest opacity-100">location</p>
+                <p className="text-base">Oslo, Norway</p>
               </div>
             </div>
           </section>
@@ -84,7 +68,10 @@ export default function Contact() {
         </div>
       </div>
 
-      <Footer />
+      <div className="relative z-10 bg-neutral-800">
+        <Footer />
+      </div>
+
     </main>
   )
 }

@@ -16,8 +16,8 @@ export default function Works() {
           <Image
             src="/logo_background.webp"
             alt="Anna Ravna logo"
-            width={60}
-            height={60}
+            width={90}
+            height={90}
             className="object-contain"
             priority
           />
@@ -30,16 +30,16 @@ export default function Works() {
           <aside className="md:w-56 md:shrink-0 space-y-6">
             <div>
               <h1 className="text-xl leading-tight">
-                Anna Ravna
+                Anna S. Vylka Ravna
                 <br />
                 <span className="italic text-gray-500">paintings</span>
               </h1>
             </div>
-            <nav className="text-sm text-gray-600">
+            <nav className="text-base text-gray-600">
               <ul className="flex gap-6 md:flex-col md:gap-2">
-                <li><Link href="/works" className="hover:text-black">works</Link></li>
-                <li><Link href="/about" className="hover:text-black">about</Link></li>
-                <li><Link href="/contact" className="hover:text-black">contact</Link></li>
+                <li><Link href="/works" className="hover:underline hover:underline-offset-4">works</Link></li>
+                <li><Link href="/about" className="hover:underline hover:underline-offset-4">about</Link></li>
+                <li><Link href="/contact" className="hover:underline hover:underline-offset-4">contact</Link></li>
               </ul>
             </nav>
           </aside>
@@ -70,7 +70,7 @@ export default function Works() {
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
                 title="Untitled"
-                subtitle="Acrylic on canvas · 2023"
+                subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
                 src="/images/untitled4.jpg"

@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-neutral-200 px-8 py-12 text-neutral-900">
+    <footer className="w-full bg-neutral-200 px-8 py-12 text-neutral-500">
       {/* <div className="mx-auto flex max-w-screen-xl flex-wrap justify-between gap-8 md:gap-6">
         <div className="w-full text-center md:w-auto md:text-left">
           <h4 className="mb-4 text-lg font-semibold">Element</h4>
@@ -27,10 +27,9 @@ export default function Footer() {
         </div>
       </div> */}
 
-      <div className="mx-auto mt-8 max-w-screen-xl border-t border-neutral-200 pt-4 text-center">
-        <p className="text-sm text-neutral-500">
-          &copy; {new Date().getFullYear()} Anna Ravna. Alle rettigheter
-          reservert.
+      <div className="mx-auto mt-8 max-w-screen-xl  pt-4 text-center">
+        <p className="text-sm text-grey">
+          &copy; {new Date().getFullYear()} Anna Ravna. All rights reserved.
         </p>
       </div>
     </footer>
