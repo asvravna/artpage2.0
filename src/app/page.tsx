@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main className="relative flex flex-col min-h-[120vh] text-gray-900 overflow-hidden">
 
-      {/* Background painting */}
       <Image
         src="\images\image1.jpg"
         alt=""

@@ -79,7 +79,7 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
-                src="/images/untitled4.jpg"
+                src="/images/untitled4.JPG"
                 alt="Painting"
                 title="Blomstring"
                 subtitle="Oil on canvas · 2022"
@@ -91,7 +91,7 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
-                src="/images/deatnu.jpg"
+                src="/images/deatnu.jpeg"
                 alt="Painting"
                 title="Rødberget"
                 subtitle="Acrylic on canvas · 2022"
@@ -103,7 +103,7 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2022"
               />
               <ArtworkImage
-                src="/images/untitled1.jpg"
+                src="/images/Untitled1.jpg"
                 alt="Painting"
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2021"
@@ -115,7 +115,7 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2021"
               />
               <ArtworkImage
-                src="/images/untitled2.jpg"
+                src="/images/Untitled2.jpg"
                 alt="Painting"
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2021"
