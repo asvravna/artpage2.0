@@ -9,7 +9,7 @@ export default function Home() {
 
       {/* Background painting */}
       <Image
-        src="/images/stille.jpg"
+        src="\images\image1.jpg"
         alt=""
         fill
         className="object-cover opacity-70"

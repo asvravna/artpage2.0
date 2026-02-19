@@ -66,6 +66,12 @@ export default function Works() {
                 title="Stille"
                 subtitle="Aquarelle · 2022"
               />
+               <ArtworkImage
+                src="/images/Untitled3.jpg"
+                alt="Painting"
+                title="Untitled"
+                subtitle="Acrylic · 2020"
+              />
               <ArtworkImage
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
