@@ -41,7 +41,7 @@ export default function Home() {
             {/* FEATURED ARTWORK */}
             <div className="mx-auto w-full max-w-3xl">
               <ArtworkImage
-                src="/images/grå_skyer.jpeg"
+                src="/images/grå_skyer.jpg"
                 alt="Painting"
                 title="Mørke skyer over fjorden"
                 subtitle="Aquarelle · 2022"
@@ -54,7 +54,7 @@ export default function Home() {
             {/* MORE ARTWORKS EXAMPLE */}
             <div className="grid gap-10 sm:grid-cols-2">
                <ArtworkImage
-                src="/images/stille.jpeg"
+                src="/images/stille.jpg"
                 alt="Painting"
                 title="Stille"
                 subtitle="Aquarelle · 2022"
