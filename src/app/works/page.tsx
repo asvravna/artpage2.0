@@ -37,7 +37,7 @@ export default function Works() {
             </div>
             <nav className="text-base text-gray-600">
               <ul className="flex gap-6 md:flex-col md:gap-2">
-                <li><Link href="/works" className="hover:underline hover:underline-offset-4">works</Link></li>
+                <li><Link href="/works" className="hover:underline hover:underline-offset-4 underline underline-offset-4  ">works</Link></li>
                 <li><Link href="/about" className="hover:underline hover:underline-offset-4">about</Link></li>
                 <li><Link href="/contact" className="hover:underline hover:underline-offset-4">contact</Link></li>
               </ul>
@@ -53,7 +53,7 @@ export default function Works() {
                 src="/images/image1.jpg"
                 alt="Painting"
                 title="Mørke skyer over fjorden"
-                subtitle="Aquarelle · 2022"
+                subtitle="Aquarelle · 2026"
                 priority
               />
             </div>
@@ -64,7 +64,7 @@ export default function Works() {
                 src="/images/stille2.jpg"
                 alt="Painting"
                 title="Stille"
-                subtitle="Aquarelle · 2022"
+                subtitle="Aquarelle · 2026"
               />
                <ArtworkImage
                 src="/images/Untitled3.jpg"
@@ -75,15 +75,18 @@ export default function Works() {
               <ArtworkImage
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
-                title="Untitled"
+                title="Yttersia"
                 subtitle="Acrylic on canvas · 2020"
               />
+              <div className="max-w-sm">
               <ArtworkImage
                 src="/images/untitled4.JPG"
                 alt="Painting"
                 title="Blomstring"
                 subtitle="Oil on canvas · 2022"
               />
+              </div>
+
               <ArtworkImage
                 src="/images/bohcuid.jpg"
                 alt="Landscape painting"

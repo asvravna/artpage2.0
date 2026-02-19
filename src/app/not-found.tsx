@@ -5,19 +5,16 @@ export default function NotFound() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center text-gray-900 p-6 text-center overflow-hidden">
       
-      {/* Background painting */}
       <Image
-        src="/images/stille2.jpg"
+        src="/images/image1.jpg"
         alt=""
         fill
         className="object-cover opacity-70"
         priority
       />
 
-      {/* Overlay to soften it */}
       <div className="absolute inset-0 bg-[#f6f6f4]/50" />
 
-      {/* Content */}
       <div className="relative z-10">
         <h1 className="text-4xl font-light mb-4">404</h1>
         <p className="text-gray-600 mb-8 max-w-md">
