@@ -1,42 +1,33 @@
+"use client";
 import Link from "next/link"
-import ArtworkImage from "../components/ArtrworkImage"
-import Footer from "../components/Footer"
-
 import Image from "next/image"
+import Footer from "../components/Footer"
+import ArtworkImage from "../components/ArtrworkImage"
 
 
-export default function Home() {
+export default function Works() {
   return (
     <main className="min-h-screen bg-[#f6f6f4] text-gray-900">
 
-      {/* PAGE CONTAINER */}
       <div className="mx-auto max-w-7xl px-6 py-10">
-              <Link href="/" className="flex items-center gap-3 group">
-    <Image
-      src="/logo_background.webp"
-      alt="Anna Ravna logo"
-      width={60}
-      height={60}
-      className="object-contain"
-      priority
-    />
 
-    {/* <h1 className="text-xl leading-tight">
-      Anna Ravna
-      <br />
-      <span className="italic text-gray-700 group-hover:text-black transition">
-        paintings
-      </span>
-    </h1> */}
-  </Link>
-
+        {/* LOGO */}
+        <Link href="/" className="flex items-center gap-3 group">
+          <Image
+            src="/logo_background.webp"
+            alt="Anna Ravna logo"
+            width={60}
+            height={60}
+            className="object-contain"
+            priority
+          />
+        </Link>
 
         {/* FLEX WRAPPER */}
         <div className="flex flex-col gap-12 md:flex-row">
 
           {/* SIDEBAR */}
           <aside className="md:w-56 md:shrink-0 space-y-6">
-
             <div>
               <h1 className="text-xl leading-tight">
                 Anna Ravna
@@ -44,24 +35,20 @@ export default function Home() {
                 <span className="italic text-gray-500">paintings</span>
               </h1>
             </div>
-
-
             <nav className="text-sm text-gray-600">
               <ul className="flex gap-6 md:flex-col md:gap-2">
-                <li><Link href="/gallery" className="hover:text-black">works</Link></li>
+                <li><Link href="/works" className="hover:text-black">works</Link></li>
                 <li><Link href="/about" className="hover:text-black">about</Link></li>
                 <li><Link href="/contact" className="hover:text-black">contact</Link></li>
               </ul>
             </nav>
-
-
           </aside>
 
           {/* MAIN CONTENT */}
           <section className="flex-1 space-y-16">
 
             {/* FEATURED ARTWORK */}
-            <div className="mx-auto w-full max-w-3xl italic">
+            <div className="mx-auto w-full max-w-3xl">
               <ArtworkImage
                 src="/images/image1.jpg"
                 alt="Painting"
@@ -71,21 +58,21 @@ export default function Home() {
               />
             </div>
 
-            {/* MORE ARTWORKS EXAMPLE */}
-            <div className="grid gap-10 sm:grid-cols-2 title-italic">
-               <ArtworkImage
+            {/* ARTWORK GRID */}
+            <div className="grid gap-10 sm:grid-cols-2">
+              <ArtworkImage
                 src="/images/stille.jpg"
                 alt="Painting"
                 title="Stille"
                 subtitle="Aquarelle · 2022"
               />
-               <ArtworkImage
+              <ArtworkImage
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2023"
               />
-               <ArtworkImage
+              <ArtworkImage
                 src="/images/untitled4.jpg"
                 alt="Painting"
                 title="Blomstring"
@@ -109,7 +96,7 @@ export default function Home() {
                 title="Gaia"
                 subtitle="Acrylic on canvas · 2022"
               />
-               <ArtworkImage
+              <ArtworkImage
                 src="/images/untitled1.jpg"
                 alt="Painting"
                 title="Untitled"
@@ -121,37 +108,19 @@ export default function Home() {
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2021"
               />
-              {/* <ArtworkImage
-                src="/images/untitled0.jpg"
-                alt="Painting"
-                title="Gaia"
-                subtitle="Acrylic on canvas · 2022"
-              /> */}
-             
               <ArtworkImage
                 src="/images/untitled2.jpg"
                 alt="Painting"
                 title="Untitled"
                 subtitle="Acrylic on canvas · 2021"
               />
-              {/* <ArtworkImage
-                src="/images/untitled2.jpg"
-                alt="Painting"
-                title="Gaia"
-                subtitle="Acrylic on canvas · 2022"
-              /> */}
             </div>
-
           </section>
-
         </div>
       </div>
-          
-        <section id="footer">
-          <Footer/>
-        </section>
+
+      <Footer />
 
     </main>
-
   )
 }

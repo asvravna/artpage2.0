@@ -3,6 +3,9 @@ import Image from "next/image"
 import Link from "next/link"
 import Footer from "./components/Footer"
 import Grainient from "./components/Grainient"
+
+
+
 export default function Home() {
   return (
     <main className="relative flex flex-col min-h-[250vh] text-gray-900 overflow-hidden">
@@ -53,7 +56,6 @@ export default function Home() {
             </nav>
           </aside>
           <section className="flex-1 space-y-16">
-            {/* your artworks go here */}
           </section>
         </div>
       </div>
