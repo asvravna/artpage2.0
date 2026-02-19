@@ -36,7 +36,7 @@ export default function Home() {
               <h1 className="text-2xl leading-tight">
                 Anna S. Vylka Ravna
                 <br />
-                <span className="italic text-gray-700">paintings</span>
+                <span className="italic text-gray-600">paintings</span>
               </h1>
             </div>
             <nav className="text-base text-gray-700 ">
