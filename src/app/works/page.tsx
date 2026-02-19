@@ -5,6 +5,7 @@ import Footer from "../components/Footer"
 import ArtworkImage from "../components/ArtrworkImage"
 
 
+
 export default function Works() {
   return (
     <main className="min-h-screen bg-[#f6f6f4] text-gray-900">
@@ -22,7 +23,6 @@ export default function Works() {
             priority
           />
         </Link>
-
         {/* FLEX WRAPPER */}
         <div className="flex flex-col gap-12 md:flex-row">
 
@@ -61,7 +61,7 @@ export default function Works() {
             {/* ARTWORK GRID */}
             <div className="grid gap-10 sm:grid-cols-2">
               <ArtworkImage
-                src="/images/stille.jpg"
+                src="/images/stille2.jpg"
                 alt="Painting"
                 title="Stille"
                 subtitle="Aquarelle · 2022"
@@ -91,13 +91,13 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
-                src="/images/deatnu.jpeg"
+                src="/images/deatnu.jpg"
                 alt="Painting"
                 title="Rødberget"
                 subtitle="Acrylic on canvas · 2022"
               />
               <ArtworkImage
-                src="/images/redigert_gaia.jpg"
+                src="/images/gaia_klippet.jpg"
                 alt="Painting"
                 title="Gaia"
                 subtitle="Acrylic on canvas · 2022"

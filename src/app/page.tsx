@@ -8,7 +8,7 @@ export default function Home() {
     <main className="relative flex flex-col min-h-[120vh] text-gray-900 overflow-hidden">
 
       <Image
-        src="/images/stille.jpg"
+        src="/images/stille2.jpg"
         alt=""
         fill
         className="object-cover opacity-70"

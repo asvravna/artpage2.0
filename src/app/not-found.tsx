@@ -7,7 +7,7 @@ export default function NotFound() {
       
       {/* Background painting */}
       <Image
-        src="/images/stille.jpg"
+        src="/images/stille2.jpg"
         alt=""
         fill
         className="object-cover opacity-70"
@@ -21,7 +21,7 @@ export default function NotFound() {
       <div className="relative z-10">
         <h1 className="text-4xl font-light mb-4">404</h1>
         <p className="text-gray-600 mb-8 max-w-md">
-          This page does not exist.
+          
         </p>
         <Link
           href="/"
