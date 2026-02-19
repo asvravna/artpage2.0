@@ -12,7 +12,6 @@ export default function Works() {
 
       <div className="mx-auto max-w-7xl px-6 py-10">
 
-        {/* LOGO */}
         <Link href="/" className="flex items-center gap-3 group">
           <Image
             src="/logo_background.webp"
@@ -23,10 +22,8 @@ export default function Works() {
             priority
           />
         </Link>
-        {/* FLEX WRAPPER */}
         <div className="flex flex-col gap-12 md:flex-row">
 
-          {/* SIDEBAR */}
           <aside className="md:w-56 md:shrink-0 space-y-6">
             <div>
               <h1 className="text-xl leading-tight">
@@ -115,7 +112,7 @@ export default function Works() {
                 src="/images/birkelunden_redigert.jpg"
                 alt="Painting"
                 title="Birkelunden"
-                subtitle="Oil on canvas · 2021"
+                subtitle="Oil on canvas · 2024"
               />
               <ArtworkImage
                 src="/images/untitled0.jpg"
