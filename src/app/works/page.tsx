@@ -61,26 +61,25 @@ export default function Home() {
           <section className="flex-1 space-y-16">
 
             {/* FEATURED ARTWORK */}
-            <div className="mx-auto w-full max-w-3xl">
+            <div className="mx-auto w-full max-w-3xl italic">
               <ArtworkImage
-                src="/images/grå_skyer.jpg"
+                src="/images/image1.jpg"
                 alt="Painting"
                 title="Mørke skyer over fjorden"
                 subtitle="Aquarelle · 2022"
-
-                
                 priority
               />
             </div>
 
             {/* MORE ARTWORKS EXAMPLE */}
-            <div className="grid gap-10 sm:grid-cols-2">
+            <div className="grid gap-10 sm:grid-cols-2 title-italic">
                <ArtworkImage
                 src="/images/stille.jpg"
                 alt="Painting"
                 title="Stille"
                 subtitle="Aquarelle · 2022"
-              /> <ArtworkImage
+              />
+               <ArtworkImage
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
                 title="Untitled"

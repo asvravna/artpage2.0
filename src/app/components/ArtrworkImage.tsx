@@ -30,7 +30,7 @@ export default function ArtworkImage({
 
       {(title || subtitle) && (
         <figcaption className="text-sm text-gray-600">
-          {title && <p className="font-medium">{title}</p>}
+          {title && <p className="font-medium italic">{title}</p>}
           {subtitle && <p>{subtitle}</p>}
         </figcaption>
       )}
