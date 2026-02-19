@@ -69,7 +69,7 @@ export default function Works() {
                <ArtworkImage
                 src="/images/Untitled3.jpg"
                 alt="Painting"
-                title="Untitled"
+                title="Čáhci"
                 subtitle="Acrylic · 2020"
               />
               <ArtworkImage
