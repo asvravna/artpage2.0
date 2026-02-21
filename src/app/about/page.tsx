@@ -68,7 +68,7 @@ export default function About() {
               than depicting it directly.
             </p>
             <p className="italic text-gray-600 text-sm sm:text-base">
-              “Some motifs grow from places I have known, while others emerge
+              “Some motifs come from real places, while others emerge
               from fragments of memory and imagination.”
             </p>
           </div>
