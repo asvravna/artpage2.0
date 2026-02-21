@@ -64,17 +64,27 @@ export default function Works() {
                 subtitle="Aquarelle · 2026"
               />
                <ArtworkImage
-                src="/images/Untitled3.jpg"
-                alt="Painting"
-                title="Čáhci"
-                subtitle="Acrylic on canvas· 2020"
-              />
-              <ArtworkImage
                 src="/images/frontpage2.jpg"
                 alt="Shimmer painting"
                 title="Yttersia"
                 subtitle="Acrylic on canvas · 2020"
               />
+             
+               <ArtworkImage
+                src="/images/Untitled3.jpg"
+                alt="Painting"
+                title="Čáhci"
+                subtitle="Acrylic on canvas· 2020"
+              />
+               <div className="max-w-sm">
+                <ArtworkImage
+                  src="/images/nyeste.JPG"
+                  alt="Painting"
+                  title="Hvor skal vi gå?"
+                  subtitle="Aquarelle · 2026"
+                />
+              </div>
+             
               <div className="max-w-sm">
                 <ArtworkImage
                   src="/images/untitled4.JPG"

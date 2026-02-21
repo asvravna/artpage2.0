@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 
 export default function Contact() {
   return (
-    <main className="relative flex flex-col min-h-[120vh] text-[#3b1f0f] overflow-hidden">
+    <main className="relative flex flex-col min-h-[140vh] text-[#3b1f0f] overflow-hidden">
 
       {/* Background painting */}
       <Image
