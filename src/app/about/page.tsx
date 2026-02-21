@@ -62,9 +62,7 @@ export default function About() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-6 px-2 md:px-4 mt-6 md:mt-0">
             <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
               Anna Sofie Vylka Ravna is a visual artist working with watercolor,
-              acrylic and oil. Being of Sámi and Nenets descent, she comes from
-              a long lineage of Nenets artists, where creative practice and
-              connection to land have been passed through generations. Her work
+              acrylic and oil. Her work
               draws deeply from landscapes — tundra, mountains, coastlines —
               seeking to capture the atmosphere of being within nature rather
               than depicting it directly.
