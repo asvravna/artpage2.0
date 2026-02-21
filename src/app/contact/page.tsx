@@ -50,13 +50,12 @@ export default function Contact() {
             </nav>
           </aside>
 
-          {/* Contact content — pushed to bottom */}
           <section className="flex-1 flex flex-col pt-30 pb-16 space-y-8">
             <h2 className="text-3xl font-light tracking-tight">contact:</h2>
             <div className="space-y-8 max-w-sm">
               <div className="space-y-1">
                 <p className="text-xs uppercase tracking-widest opacity-100">email</p>
-                <p className="text-base">ansvravna [at] gmail [dot] com</p>
+                <p className="text-base">anna@ravna.com</p>
               </div>
               <div className="space-y-1">
                 <p className="text-xs uppercase tracking-widest opacity-100">location</p>

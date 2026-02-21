@@ -76,18 +76,23 @@ export default function Works() {
                 subtitle="Acrylic on canvas · 2020"
               />
               <div className="max-w-sm">
-              <ArtworkImage
-                src="/images/untitled4.JPG"
-                alt="Painting"
-                title="Blomstring"
-                subtitle="Oil on canvas · 2022"
-              />
+                <ArtworkImage
+                  src="/images/untitled4.JPG"
+                  alt="Painting"
+                  title="Blomstring"
+                  subtitle="Oil on canvas · 2022"
+                />
               </div>
-
+              <ArtworkImage
+                src="/images/entropy.jpg"
+                alt="Painting"
+                title="Entropi"
+                subtitle="Acrylic on canvas · 2020"
+              />
               <ArtworkImage
                 src="/images/bohcuid.jpg"
                 alt="Landscape painting"
-                title="Untitled"
+                title="Vinterbeite"
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
