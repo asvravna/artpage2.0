@@ -7,7 +7,7 @@ import SidebarNav from "./components/SidebarNav"
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col min-h-[180vh] text-gray-900 overflow-hidden">
+    <main className="relative flex flex-col min-h-[150vh] text-gray-900 overflow-hidden">
       <Image
         src="/images/stille2.jpg"
         alt=""

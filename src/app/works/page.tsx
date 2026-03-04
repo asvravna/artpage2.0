@@ -45,7 +45,7 @@ export default function Works() {
           <section className="flex-1 space-y-16">
 
             {/* FEATURED ARTWORK */}
-            <div className="mx-auto w-full max-w-3xl">
+            <div className="mx-auto w-full max-w-2xl">
               <ArtworkImage
                 src="/images/image1.jpg"
                 alt="Painting"
@@ -69,14 +69,15 @@ export default function Works() {
                 title="Yttersia"
                 subtitle="Acrylic on canvas · 2020"
               />
-             
+             <div className="max-w-sm">
                <ArtworkImage
                 src="/images/Untitled3.jpg"
                 alt="Painting"
-                title="Čáhci"
+                title="Åndene"
                 subtitle="Acrylic on canvas· 2020"
               />
-               <div className="max-w-sm">
+              </div>
+               <div className="max-w-xs">
                 <ArtworkImage
                   src="/images/nyeste.JPG"
                   alt="Painting"
@@ -89,7 +90,7 @@ export default function Works() {
                 <ArtworkImage
                   src="/images/untitled4.JPG"
                   alt="Painting"
-                  title="Blomstring"
+                  title="Blomstring (vårsommer)"
                   subtitle="Oil on canvas · 2022"
                 />
               </div>
@@ -102,7 +103,7 @@ export default function Works() {
               <ArtworkImage
                 src="/images/bohcuid.jpg"
                 alt="Landscape painting"
-                title="Vinterbeite"
+                title="Vinterbeite på tundraen"
                 subtitle="Acrylic on canvas · 2020"
               />
               <ArtworkImage
